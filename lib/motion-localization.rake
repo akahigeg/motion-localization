@@ -1,4 +1,4 @@
-desc "create localization files (options: lang_code=xx )."
+desc "create localization files (options: lang_code=xx )"
 namespace :localization do
   task :create do
     raise "require argument 'lang_code=[lang_code]' ex. lang=en" if ENV['lang_code'].nil?
