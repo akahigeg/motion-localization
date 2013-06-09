@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["akahigeg@gmail.com"]
   spec.description   = %q{Localization rake task for RubyMotion}
   spec.summary       = %q{Localization rake task for RubyMotion}
-  spec.homepage      = "http://github.com/akahigeg/"
+  spec.homepage      = "https://github.com/akahigeg/motion-localization"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
