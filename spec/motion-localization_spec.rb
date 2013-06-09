@@ -4,10 +4,6 @@ require 'rake'
 require 'rspec'
 require 'fileutils'
 
-# TODO: READMEの整備
-# TODO: gemspecの正義
-# TODO: gemとしてリリース
-
 describe 'motion-localization' do
   before(:all) do
     @rake = Rake::Application.new
@@ -137,7 +133,3 @@ end
 def created?
   true
 end
-
-# RSpec::Matchers.define :be_created do |expected|
-#  match {|actual| actual > expected }
-# end
