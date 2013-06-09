@@ -1,4 +1,4 @@
-# Motion::Localization
+# motion-localization
 
 To add localization rake task to your RubyMotion project.
 
